@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("selected.jpg");
+  }
+  
+  .myschedule {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration:underline;
+    color:white;
+
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  
+  th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: black;
+    color:white;
+  }
+  
+  .lunch {
+    background-color: #05223a;
+    text-align: center;
+  }
+  .break{
+    background-color:#05223a;
+    text-align: center;
+  }
+  
