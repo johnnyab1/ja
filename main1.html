@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+  background-image: url(image5-r.png);
+  background-size: 30%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+    label {
+      display: block;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Quiz</h1>
+  <form action="quiz.html">
+    <label>
+      First Name:
+      <input type="text" name="firstName" required>
+    </label>
+    <label>
+      Last Name:
+      <input type="text" name="lastName" required>
+    </label>
+    <label>
+      Phone Number:
+      <input type="tel" name="phoneNumber" required>
+    </label>
+    <button type="submit">Start Quiz</button>
+  </form>
+</body>
+</html>
